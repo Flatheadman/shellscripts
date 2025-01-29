@@ -1,0 +1,10 @@
+# 自定义命令列表函数
+custom_commands() {
+    echo "zjump: 连接到跳板机"
+    echo "end"
+    # 你可以继续添加更多的 echo 语句来输出更多的行
+}
+alias zh="custom_commands"
+
+# 跳板机链接
+alias zjump='~/MyProjects/shellscripts/remote_hk.sh'
